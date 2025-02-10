@@ -1,14 +1,14 @@
-#🧮 Formula Builder Tool - Price Calculations
-##📌 Overview
+🧮 Formula Builder Tool - Price Calculations
+📌 Overview
 The Formula Builder Tool is a full-stack web application that enables users to create, manage, and apply formulas for price calculations dynamically. The tool allows users to store predefined formulas, apply them to sales data, and view results in real-time.
 
-##🏗 Tech Stack
+🏗 Tech Stack
 Backend: Python, Flask, Flask-SQLAlchemy, Flask-Migrate, Flask-CORS
 Database: MySQL
 Frontend: React.js, Tailwind CSS
 Other Tools: SQLAlchemy ORM, Axios (API calls), Context API (state management)
 
-##⚙ Features
+⚙ Features
 ✅ User-Friendly UI – React-based intuitive interface for formula management
 ✅ Dynamic Formula Builder – Create, edit, and delete formulas dynamically
 ✅ Sales Data Management – Store and retrieve structured sales data
@@ -16,7 +16,7 @@ Other Tools: SQLAlchemy ORM, Axios (API calls), Context API (state management)
 ✅ Secure API Backend – Flask-based REST API with database integration
 ✅ Persistent Storage – Data stored in MySQL with proper schema
 
-##📂 Project Structure
+📂 Project Structure
 Formula-Builder-Tool/
 ├── backend/              # Flask API
 │   ├── migrations/       # Database migrations
@@ -35,38 +35,30 @@ Formula-Builder-Tool/
 │   ├── package.json     # Dependencies
 ├── README.md            # Project Documentation
 ├── .gitignore           # Ignore unnecessary files
-🚀 Setup & Installation
+
+🚀 Setup & Installation:
 🔹 Backend Setup (Flask)
-
-##1️⃣ Navigate to the backend folder:
+1️⃣ Navigate to the backend folder:
 cd backend
-
-##2️⃣ Create and activate a virtual environment:
+2️⃣ Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-##3️⃣ Install dependencies:
+3️⃣ Install dependencies:
 pip install -r requirements.txt
-
-##4️⃣ Set up the database:
+4️⃣ Set up the database:
 flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
-
-##5️⃣ Run the Flask server:
+5️⃣ Run the Flask server:
 python app.py
-
-##🔹 Frontend Setup (React)
-##1️⃣ Navigate to the frontend folder:
+🔹 Frontend Setup (React)
+1️⃣ Navigate to the frontend folder:
 cd frontend
-
-##2️⃣ Install dependencies:
+2️⃣ Install dependencies:
 npm install
-
-##3️⃣ Start the React app:
+3️⃣ Start the React app:
 npm start
-
-##🎯 How It Works
+🎯 How It Works
 1️⃣ Add Formulas – Define formulas using dynamic fields
 2️⃣ Store Data – Add sales-related data (like product price, quantity)
 3️⃣ Apply Formulas – Compute final values using predefined formulas
